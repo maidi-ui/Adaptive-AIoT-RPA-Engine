@@ -30,3 +30,10 @@ A high-performance Agentic Process Automation (APA) framework bridging Web-layer
 
 ## 📞 联系方式
 如有技术交流或商业合作需求，请通过项目内开发者主页联系。
+
+## 🙏 致谢与架构灵感 (Acknowledgements & Architectural Inspirations)
+本项目底层的意图转化引擎与自适应调度逻辑，深受以下全球顶尖开源架构的启发。我们在其理念基础上，针对高频 Web RPA 信号的特化解析与 TCP 底层保活进行了重构：
+
+* **[espressif/esp-claw](https://github.com/espressif/esp-claw)** - 乐鑫官方的智能硬件 Agent 框架，为本项目的 LLM-to-MCU 物理意图转化提供了底层协议参考。
+* **[Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)** - 业界领先的 LLM 驱动浏览器自动化方案，为本系统的“无选择器（Selector-less）” DOM 嗅探与自愈机制提供了核心理论支撑。
+* **[OpenBMB/ProAgent](https://github.com/OpenBMB/ProAgent)** - 为本项目从传统 RPA 向 APA（Agentic Process Automation，智能体流程自动化）的架构演进提供了极具价值的多 Agent 协同范式。
