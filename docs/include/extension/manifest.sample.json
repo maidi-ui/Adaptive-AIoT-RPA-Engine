@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "APA-Stealth-Node",
+  "permissions": ["storage", "declarativeNetRequest", "offscreen"],
+  "host_permissions": ["<all_urls>"],
+  "description": "High-performance data probing node for Adaptive RPA Engine."
+}
